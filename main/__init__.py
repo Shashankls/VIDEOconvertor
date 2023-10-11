@@ -16,7 +16,7 @@ LOG_CHANNEL = config("LOG_CHANNEL","mmmmcxz")
 LOG_ID = config("LOG_ID","-1001976098815")
 FORCESUB = config("FORCESUB","-1001976098815")
 FORCESUB_UN = config("FORCESUB_UN","mmmmcxz")
-ACCESS_CHANNEL = config("ACCESS_CHANNEL","-1001976098815")
+ACCESS_CHANNEL = config("ACCESS_CHANNEL","-1001880053431")
 MONGODB_URI = config("MONGODB_URI","mongodb+srv://Shashanklsgg:shashank.ls1324@cluster0.9pv92ou.mongodb.net/?retryWrites=true&w=majority")
 
 Drone = TelegramClient('bot', API_ID, API_HASH).start(bot_token=BOT_TOKEN) 

@@ -7,9 +7,9 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
                     level=logging.WARNING)
 
 # variables
-API_ID = config("API_ID", default=None, cast=int)
-API_HASH = config("API_HASH", default=None)
-BOT_TOKEN = config("BOT_TOKEN", default=None)
+API_ID = config("API_ID","16621664") 
+API_HASH = config("API_HASH", "8b283f2943729318995738b5963f0bcc") 
+BOT_TOKEN = config("BOT_TOKEN","6525864792:AAHoeiRNOQmdRD4GFyRo4Ht0vZtccEOWk10") 
 BOT_UN = config("BOT_UN", default=None)
 AUTH_USERS = config("AUTH_USERS", default=None, cast=int)
 LOG_CHANNEL = config("LOG_CHANNEL", default=None)
